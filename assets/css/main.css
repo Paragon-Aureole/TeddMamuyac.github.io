@@ -6,6 +6,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.sourcesansprotext {
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#one{
+	background-color: #97B1F5;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -98,7 +107,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		/* changed */
+		background: #CAE3F7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +125,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		/* changed */
+		color: rgba(0, 0, 0, 0.55);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -158,11 +169,13 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			/* changed */
+			color: #6d0000;
 		}
 
 	strong, b {
-		color: #ffffff;
+		/* changed */
+		color: #000000;
 		font-weight: bold;
 	}
 
@@ -171,11 +184,13 @@ input, select, textarea {
 	}
 
 	p {
+		color: #000000;
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		/* changed */
+		color: #000000;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1833,9 +1848,10 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		/* changed */
+		border-color: #000000 !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -3022,7 +3038,8 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				/* changed */
+				background: #97B1F5;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3234,33 +3251,33 @@ input, select, textarea {
 				}
 
 			}
-
+		/* all changed */
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #595959;
 		}
-
+		/* changed */
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #CAE3F7;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #353535;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #6D75D0;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #6D75D0;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #6D75D0;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #6D75D0;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3387,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		/* changed */
+		background-color: #595959;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3542,8 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		/* changed */
+		background: #595959;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3737,7 +3756,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: #CAE3F7;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
